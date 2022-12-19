@@ -24,18 +24,51 @@ box-sizing: border-box;
 
 }
 
+body {
+  margin: 50px;
+}
+
 h1 {
+  font-family: 'DM Sans';
   color: green;
 }
+
+h2 {
+font-family: 'Work Sans', sans-serif;
+padding-top: ;
+}
+
+
+img.raga {
+  max-width: 100%;
+  margin-left: -40px;
+
+}
+
+figcaption {
+  color: gray;
+  margin-left: -40px;
+}
+
+.article-text {
+  font-family: 'DM Sans', sans-serif;
+}
+
   /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
 @media(min-width: 681px) {
 
-
-
-.chart1 {
-  max-width: 500px;
+.flex {
+  display: flex;
 }
 
+.chart1 {
+  width: 100%
+}
+
+.article-text, h1, h2 {
+  padding-top: 10px;
+  max-width: 950px;
+}
 }

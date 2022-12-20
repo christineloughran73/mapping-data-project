@@ -24,8 +24,11 @@ box-sizing: border-box;
 
 }
 
-body {
-  margin: 50px;
+.container {
+   width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 h1 {
@@ -35,9 +38,7 @@ h1 {
 
 h2 {
 font-family: 'Work Sans', sans-serif;
-padding-top: ;
 }
-
 
 img.raga {
   max-width: 100%;
@@ -61,6 +62,8 @@ figcaption {
 
 .flex {
   display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .chart1 {
